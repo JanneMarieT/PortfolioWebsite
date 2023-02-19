@@ -1,0 +1,34 @@
+table,
+td, th {
+    border: 1px solid #333;
+}
+
+th {
+    text-align: center;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: goldenrod;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(247, 244, 199, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
